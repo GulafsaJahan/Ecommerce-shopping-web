@@ -1,0 +1,26 @@
+.hardware_t{
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    padding-right: 55px;
+    
+}
+/* .hardware_t > .MuiSvgIcon-root{
+    margin-right: 10px;
+} */
+.hardwaret>hr{
+    margin-left: -10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 108.5%;
+    height: 0.5px;
+    background-color: rgb(233, 233, 233);
+    border: none;;
+
+}
+.hardware_t:hover{
+    background-color: #e4e4e4;
+    cursor: pointer;
+    font-weight: 600;
+    font-style: bold;
+}

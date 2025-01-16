@@ -1,0 +1,53 @@
+
+/* Arrow Styling */
+.slick-prev,
+.slick-next {
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+  color: white; /* Arrow color */
+  border-radius: 50%; /* Circular arrows */
+  width: 40px;
+  height: 40px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.slick-slide{
+  margin: 0 15px;
+}
+
+.slick-prev {
+  left: 15px; /* Position to the left of the slider */
+}
+
+.slick-next {
+  right: 15px; /* Position to the right of the slider */
+}
+
+/* Adjust on hover */
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+}
+
+
+/* .slick-slide > div {
+  margin: 0 15px;
+}
+
+.slick-prev,
+.slick-next {
+  background-color: grey;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #333;
+} */

@@ -1,0 +1,15 @@
+.custom-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 0 4px 10px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  
+.shadow-transition {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .shadow-transition:hover {
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.2); /* Hover pe shadow thoda strong ho jayega */
+    transform: scale(1.05); /* Hover pe content thoda zoom ho jayega */
+  }
+  
+  

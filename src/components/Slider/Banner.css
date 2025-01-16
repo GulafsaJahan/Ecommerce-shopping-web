@@ -1,0 +1,45 @@
+/* Ensuring consistent border-radius during transitions */
+.custom-carousel .carousel-inner {
+    border-radius: 12px; 
+    overflow: hidden; 
+}
+
+/* Optional: Styling for the overall container for aesthetics */
+.custom-carousel {
+    box-shadow: 0px 4px 8px rgba(15, 14, 14, 0.1); 
+    border-radius: 12px; 
+    overflow: hidden; /* Ensure nothing spills out */
+}
+
+/* Styling for the arrow icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #686967; 
+    border-radius: 10%; 
+    padding-right: 36px;
+    padding-bottom: 62px;
+
+}
+
+/* Adjust position of the arrows */
+.carousel-control-next-icon {
+    margin-left: 70px;
+}
+.carousel-control-prev-icon {
+    margin-left: -70px;
+}
+
+/* Styling for the hover state of arrows */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #aeaeaf; 
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 767px) {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        padding-right: 0px;
+        padding-bottom:0px;
+    }
+}

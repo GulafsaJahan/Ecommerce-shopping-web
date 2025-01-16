@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+background-color: #3b3b3b;
+}
+.social-icon {
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  box-shadow: 0px 4px 6px #dfdddd33; /* Adding shadow */
+  background-color: transparent;
+  display: inline-flex;
+}
+
+.social-icon:hover {
+  transform: translateY(-5px); /* Slightly lift the icon on hover */
+  box-shadow: 0px 8px 19px #f8f7f74d; /* Stronger shadow on hover */
+}
